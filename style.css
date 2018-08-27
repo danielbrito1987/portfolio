@@ -1,0 +1,40 @@
+body{
+	width: 100%;
+	padding: 50px 100px 10px 100px;
+}
+
+img, object, video{
+	width: 100%;
+}
+
+h2{
+	padding-top: 20px;
+	color: #7d97ad;
+}
+
+footer{
+	padding-top: 40px;
+	width: 100%;
+	text-align: center;
+}
+
+.logo{
+	float: left;
+	width: 50%;
+	padding-top: 10px;
+}
+
+.logo-name{
+	float: right;
+}
+
+.logo-name h1{
+	font-size: 80px;
+	font-weight: 80;
+	color: #7d97ad;
+}
+
+.logo-name h4{
+	float: right;
+	color: #7d97ad
+}
