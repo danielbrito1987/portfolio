@@ -1,0 +1,96 @@
+body{
+	width: 100%;
+	padding: 50px 100px 10px 100px;
+}
+
+img, object, video{
+	width: 100%;
+}
+
+h2{
+	padding-top: 20px;
+	color: #7d97ad;
+}
+
+footer{
+	padding-top: 40px;
+	width: 100%;
+	text-align: center;
+}
+
+.logo{
+	float: left;
+	width: 50%;
+	padding-top: 10px;
+}
+
+.logo img{
+	width: 40%;
+}
+
+.logo-name{
+	float: right;
+}
+
+.logo-name p{
+	margin: 0;
+}
+
+.logo-name h1{
+	font-size: 77px;
+	color: #7d97ad;
+}
+
+.logo-name h4{
+	float: right;
+	color: #7d97ad
+}
+
+.portfolio-items{
+	text-align: center;
+	text-decoration: underline;
+}
+
+.slide{
+	padding-top: 30px;
+}
+
+.linha{
+	color: #7d97ad; 
+	width: 100%; 
+	position: relative;
+}
+
+@media screen and (max-width: 700px) {
+	body{
+		padding: 5px 5px 5px 5px;
+	}	
+	
+	.logo{
+		text-align: center;
+	}
+	
+	.logo-name h1{
+		font-size: 45px;
+		text-align: center;
+	}
+	
+	.logo-name h4{
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 701px){
+	.logo{
+		width: 40%;
+	}
+	
+	.logo-name{
+		width: 60%;
+	}
+	
+	.logo-name h1{
+		font-size: 50px;
+		text-align: center;
+	}
+}
